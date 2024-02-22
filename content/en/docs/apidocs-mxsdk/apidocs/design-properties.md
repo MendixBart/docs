@@ -244,15 +244,18 @@ Here is an example of a **Colorpicker** design property using classes:
     "options": [
         {
             "name": "Red",
-            "class": "backgroundColorRed"
+            "class": "backgroundColorRed",
+            "preview": "--color-red"
         },
         {
             "name": "Green",
-            "class": "backgroundColorGreen"
+            "class": "backgroundColorGreen",
+            "preview": "--color-green"
         },
         {
             "name": "Blue",
-            "class": "backgroundColorBlue"
+            "class": "backgroundColorBlue",
+            "preview": "--color-blue"
         }
     ]
 }
@@ -263,21 +266,24 @@ Here is an example of a **Colorpicker** design property using CSS variables:
 ```js
 {
     "name": "Background color",
-    "type": "Dropdown",
+    "type": "Colorpicker",
     "property": "background-color",
     "description": "Description of Background Color Property",
     "options": [
         {
             "name": "Red",
-            "variable": "--color-red"
+            "variable": "--color-red",
+            "preview": "--color-red"
         },
         {
             "name": "Green",
-            "variable": "--color-green"
+            "variable": "--color-green",
+            "preview": "--color-green"
         },
         {
             "name": "Blue",
-            "variable": "--color-blue"
+            "variable": "--color-blue",
+            "preview": "--color-blue"
         }
     ]
 }
